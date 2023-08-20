@@ -31,8 +31,7 @@ def predict_sentiment_and_recommendation(comment):
     return star_rating, recommendation
 
 st.set_page_config(
-    page_title="Data Hunters",
-    page_icon="src\Huntersb.png",
+    page_title="Data Hunters"
 )
 
 st.title('Calificación de comentarios con Data Hunters')
